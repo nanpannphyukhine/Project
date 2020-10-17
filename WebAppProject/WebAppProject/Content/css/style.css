@@ -1,6 +1,4 @@
-﻿body {
-    background: #eee
-}
+﻿
 
 .header2.bg-success-gradiant {
     background: #2cdd9b;
@@ -11,30 +9,32 @@
     font-size: 12px
 }
 
-.header2 .dropdown-item {
-    padding: 8px 1rem;
-    color: #8d97ad
+.header2 .dropdown-menu{
+    background-color:#1dc8cc;
+    border:groove;
+    border-radius:9px;
 }
 
-.header2 .h2-nav .navbar-nav .nav-item .nav-link {
+.header2 .dropdown-item {
+    padding: 5px 1rem;
+}
+
+.header2 .dropdown-item:hover{
+    opacity:0.5
+}
+
+.header2.h2-nav .navbar-nav .nav-item .nav-link {
     padding: 10px 0px;
-    color: #ffffff;
     font-weight: 400
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .nav-link:hover {
-    color:#8d97ad
+    color:#8eecee;
 }
 
 .header2 .h2-nav .navbar-nav .nav-item {
-    margin: 0 15px;
-}
-
-@media (min-width: 1024px) {
-    .header2 .navbar-nav>.dropdown .dropdown-menu {
-        min-width: 210px;
-        margin-top: 0px
-    }
+    margin:0px 28px 0px 4px;
+    padding:1px
 }
 
 .header2 .dropdown-toggle::after {
@@ -54,11 +54,11 @@
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .btn{
-    opacity: 0.5
+    color:#fff
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .btn:hover {
-    opacity: 1
+    opacity: 0.5
 }
 
 .header2 .dropdown-submenu>.dropdown-menu {

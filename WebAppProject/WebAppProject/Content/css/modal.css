@@ -63,12 +63,12 @@ small {
 
 .login-space .group .button{
     margin-top:30px;
+    color:#fff;
     background:#10cadc;
   }
 
 .login-space .group .button:hover{
-    background-color:azure;
-    opacity:0.5
+    opacity:0.7
 }
 
 .card-title {
@@ -89,11 +89,10 @@ a {
 .foot {
     text-align: center;
     color: #fff;
-    opacity:0.5
 }
 
 .foot:hover{
-    color:azure;
-    opacity:1
+    color:#8eecee;
+    opacity:0.7
 }
 
