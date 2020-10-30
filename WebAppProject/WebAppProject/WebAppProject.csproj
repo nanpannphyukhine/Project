@@ -177,6 +177,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\home2.png" />
     <Content Include="Images\keyboard.jpg" />
+    <Content Include="Images\Uni_Logo.jpg" />
     <Content Include="Images\vote2.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />

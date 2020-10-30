@@ -6,9 +6,9 @@
 
 .login-box {
     width: 100%;
-    margin: auto;
-    max-width: 500px;
-    min-height: 540px;
+    /*margin: auto;*/
+    /*max-width: 500px;*/
+    min-height: 440px;
     position: relative;
     background:url(../../Images/keyboard.jpg) no-repeat center;
     background-size:cover;
@@ -48,7 +48,7 @@ small {
 
 .login-space .group .input,
 .login-space .group .button {
-    width: 100%;
+    width: 90%;
     color: #fff;
     display: block
 }
@@ -64,7 +64,8 @@ small {
 .login-space .group .button{
     margin-top:30px;
     color:#fff;
-    background:#10cadc;
+    background:#1dc8cc;
+    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
   }
 
 .login-space .group .button:hover{
@@ -81,8 +82,8 @@ a {
 }
 
 .hr {
-    height: 2px;
-    margin: 60px 0 50px 0;
+    height: 3px;
+    margin: 40px 0 20px 0;
     background: rgba(255, 255, 255, .2)
 }
 

@@ -15,57 +15,62 @@
     <script src="~/Content/js/jquery.sweet-dropdown.min.js"></script>
 </head>
 <body>
-    <div class="header2 bg-success-gradiant">
-        <!-- Header 1 code -->
+    <div class="template-container mt-sm-4">
+        <div class="header2 bg-success-gradiant">
+            <div class="title">
+                <i>Vote For King & Queen Selections </i>
+            </div>
+            <!-- Header 1 code -->
             <nav class="navbar navbar-expand-lg h2-nav" style="padding: inherit;">
-                <img src="~/Images/vote2.png" class="navbar-brand" style="width:63px;padding-left:1rem;margin-left:125px;" />
-                <div class="collapse navbar-collapse hover-dropdown" style="padding: 0px 110px 0px 0px;">
+                <img src="~/Images/vote2.png" class="navbar-brand" style="width:63px;padding-left:1rem;" />
+                <div class="collapse navbar-collapse hover-dropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="@Url.Action("Index","Home")">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("About","Home")">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Contact","Home")">Contact</a></li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         @*<li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="icon-bubble"></i> Need help?</a>
-                        </li>*@
+                            <a class="nav-link" href="#"><i class="icon-bubble"></i> Need help?</a>
+                            </li>*@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-dropdown="#navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"> Dropdown <i class="fa fa-angle-down ml-1 font-12"></i></a>
-                                <ul class="dropdown-menu dropdown-anchor-top-right dropdown-has-anchor" id="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    @*<li class="divider" role="separator"></li>*@
-                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                                </ul>
+                            <ul class="dropdown-menu dropdown-anchor-top-right dropdown-has-anchor" id="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                @*<li class="divider" role="separator"></li>*@
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item"><a class="btn rounded-pill btn-dark py-sm-2 px-3" href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
                     </ul>
-                    </div>
+                </div>
             </nav> <!-- End Header 1 code -->
-        </div>
-    <!-- The Login Modal -->
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="login-box">
-                    <div class="login-snip">
-                        <div class="card-title text-center">
-                            <h5 class="mt-5">HEY, THERE</h5><small class="para">Login to your cool account below.</small>
+        </div><!--End navbar-->
+        <!-- The Login Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="margin-top: 120px;">
+                    <div class="login-box">
+                        <div class="login-snip">
+                            <div class="card-title text-center">
+                                <h5 class="mt-1">HEY, THERE</h5><small class="para">Login to your cool account below.</small>
+                            </div>
+                            <div class="login-space">
+                                <div class="group"><input id="user" type="text" class="input" placeholder="Enter your email account"></div>
+                                <div class="group"><input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"></div>
+                                <div class="group"><input type="submit" class="button" value="Sign In">  </div>
+                                <div class="hr"></div>
+                                <div class="foot"> <a href="#">Forgot Password?</a> </div>
+                            </div>
                         </div>
-                           <div class="login-space">
-                               <div class="group"><input id="user" type="text" class="input" placeholder="Enter your email account"></div>
-                               <div class="group"><input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"></div>
-                               <div class="group"><input type="submit" class="button" value="Sign In">  </div>
-                               <div class="hr"></div>
-                               <div class="foot"> <a href="#">Forgot Password?</a> </div>
-                               </div>
-                        </div>
-                 </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-         <div class="container body-content">
-             @RenderBody()
-         </div>
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+        </div>
 </body>
 </html>
