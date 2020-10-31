@@ -9,13 +9,15 @@
 }
 
 .header2.bg-success-gradiant {
-    background: #2cdd9b;
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    background:#0e6163;
+
+    /*background: #2cdd9b;
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);*/
 }
 
 .title{
     background:#1dc8cc;
-    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
+    background: linear-gradient(to right, #1dc8cc 10%, #2cdd9b 100%);
     padding:0px 0px 0px 85px;
     font-family:'Cancellaresca Script LET Plain';
 }
@@ -90,7 +92,9 @@ i{
 
 /*body*/
 .home_page{
-    background:#095355;
+    background:#279b9f;
+    /*background: #2cdd9b;
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);*/
 }
 
 .uni_logo{

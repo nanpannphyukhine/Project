@@ -6,8 +6,6 @@
 
 .login-box {
     width: 100%;
-    /*margin: auto;*/
-    /*max-width: 500px;*/
     min-height: 440px;
     position: relative;
     background:url(../../Images/keyboard.jpg) no-repeat center;
@@ -94,6 +92,5 @@ a {
 
 .foot:hover{
     color:#8eecee;
-    opacity:0.7
 }
 
